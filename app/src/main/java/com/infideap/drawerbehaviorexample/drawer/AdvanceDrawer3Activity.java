@@ -48,9 +48,7 @@ public class AdvanceDrawer3Activity extends AppCompatActivity
 
         drawer.setViewScale(Gravity.START, 0.9f);
         drawer.setViewElevation(Gravity.START, 20);
-
-        drawer.useCustomBehavior(Gravity.END);
-
+        drawer.addCustomBehavior(Gravity.END);
     }
 
     @Override
@@ -61,7 +59,6 @@ public class AdvanceDrawer3Activity extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

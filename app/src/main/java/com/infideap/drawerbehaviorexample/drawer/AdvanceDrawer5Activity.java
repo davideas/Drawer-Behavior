@@ -46,11 +46,12 @@ public class AdvanceDrawer5Activity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        drawer.setViewScale(Gravity.START, 0.9f);
-        drawer.setRadius(Gravity.START, 35);
+        //drawer.setViewScale(Gravity.START, 0.9f);
+        //drawer.setRadius(Gravity.START, 20);
+        drawer.setMode(Gravity.START, AdvanceDrawerLayout.Mode.BOTTOM_FIXED);
+        //drawer.setParallax(Gravity.START, 0.5f);
+        drawer.setMini(Gravity.START, 200);
         drawer.setViewElevation(Gravity.START, 20);
-
-
     }
 
     @Override

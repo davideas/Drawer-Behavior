@@ -46,10 +46,8 @@ public class AdvanceDrawer1Activity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        drawer.useCustomBehavior(Gravity.START);
-        drawer.useCustomBehavior(Gravity.END);
-
-
+        drawer.addCustomBehavior(Gravity.START);
+        drawer.addCustomBehavior(Gravity.END);
     }
 
     @Override

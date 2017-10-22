@@ -48,8 +48,6 @@ public class AdvanceDrawer4Activity extends AppCompatActivity
 
         drawer.setViewScale(Gravity.END, 0.9f);
         drawer.setViewElevation(Gravity.END, 20);
-
-
     }
 
     @Override

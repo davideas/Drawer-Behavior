@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="advDrawerLayout">
+        <attr name="adl_expandHeader" format="boolean" />
+        <attr name="adl_parallax" format="float" />
+        <attr name="adl_mini" format="boolean" />
         <attr name="adl_customBehavior" format="boolean" />
         <attr name="adl_viewScale" format="float" />
         <attr name="adl_viewScrimColor" format="color" />
